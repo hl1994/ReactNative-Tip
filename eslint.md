@@ -1,5 +1,5 @@
 ## Eslint
-npm i --save-dev eslint eslint-config-rallycoding
+`npm i --save-dev eslint eslint-config-rallycoding`
 
 #### Tạo file .eslintrc
 ```js
