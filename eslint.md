@@ -4,20 +4,21 @@
 #### Tạo file .eslintrc
 ```js
 {
-    "parser": "babel-eslint",
-    "env": {
-        "node": true,
-        "browser": true
-    },
-    "plugins": [
-        "react"
-    ],
-    "extends": [
-        "rallycoding",
-        "plugin:react/recommended"
-    ],
-    "rules": {
-        "quotes": ["off"]
-    }
+  "parser": "babel-eslint",
+  "env": {
+    "node": true,
+    "browser": true
+  },
+  "plugins": [
+    "react"
+  ],
+  "extends": [
+    "rallycoding",
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "rules": {
+    "quotes": ["off"]
+  }
 }
 ```
