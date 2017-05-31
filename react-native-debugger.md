@@ -8,8 +8,8 @@ https://github.com/jhen0409/react-native-debugger/tree/master/npm-package
 * Đối với Wi-Fi:
   - `>= 0.43` - Thay đổi `host` tại `node_modules/react-native/Libraries/Core/Devtools/setupDevtools.js#L28-L30`
 ```js
-   // PlatformConstants.ServerHost.split(':')[0] :
-   '192.168.137.1' : // Địa chỉ IP của PC
+// PlatformConstants.ServerHost.split(':')[0] :
+'192.168.137.1' : // Địa chỉ IP của PC
 ```
 
 #### React Inspector gặp thông báo "Connecting to React…" với RN ^0.43
